@@ -1,4 +1,4 @@
-export const wikitext = {
+const wikitext = {
   name: "wikitext",
   addres: "https://he.wikisource.org/wiki/",
   createURLFunctions: {
@@ -8,7 +8,7 @@ export const wikitext = {
   }
 }
 
-export const shitufta = {
+const shitufta = {
   name: "shitufta",
   addres: "https://shitufta.org.il/",
   createURLFunctions: {
@@ -20,5 +20,5 @@ export const shitufta = {
       }
   }
 }
-
-exsport {wikitext, shitufta } to "file:///C:/Users/User/Desktop/myhtml.html"
+const sites = [wikitext, shitufta]
+exsport sites;
