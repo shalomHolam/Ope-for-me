@@ -20,4 +20,5 @@ const shitufta = {
       }
   }
 }
-exsport const sites = [wikitext, shitufta];
+const sites = [wikitext, shitufta]
+exsport sites;
