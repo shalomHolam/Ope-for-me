@@ -21,4 +21,4 @@ const shitufta = {
   }
 }
 const sites = [wikitext, shitufta]
-exsport sites;
+exsport {sites};
